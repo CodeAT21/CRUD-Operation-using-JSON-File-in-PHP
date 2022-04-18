@@ -1,0 +1,43 @@
+table tr th, table tr td{
+    font-size: 1rem;
+}
+.container{
+    padding: 20px;
+}
+.container h1 {
+    font-size: 40px;
+    color: #000;
+    text-align: center;
+    margin-bottom: 27px;
+}
+.row h2{
+    font-size: 20px;
+    color: #444;
+}
+.head{
+    margin-bottom: 10px;
+    padding-left: 0;
+    padding-right: 0;
+}
+.head h5{
+    float: left;
+    width: 75%;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+i.plus{
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+    vertical-align: middle;
+}
+.plus:before {
+    content: url(../images/add.png);
+}
+#userData a.btn{
+    padding: .1rem .5rem;
+}
+.alert-danger p{margin-bottom: 2px;}
